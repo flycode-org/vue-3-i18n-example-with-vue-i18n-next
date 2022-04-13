@@ -1,0 +1,11 @@
+version: "0.1"
+environments:
+  - name: main
+    branch: main
+    mode: pull-request
+apps:
+  - name: vue-3-i18n-example-with-vue-i18n-next
+    path: ""
+    text-resources:
+      - path: "*.vue"
+        format: vue-hardcoded
